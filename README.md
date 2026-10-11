@@ -1,6 +1,5 @@
 # Stock Tracking System 📦
 
-🌐 **English** | [Türkçe](README.tr.md)
 
 A desktop **stock tracking and sales management application** built with C# Windows Forms and Microsoft SQL Server. It was designed for a clothing brand and lets staff and managers manage products, track stock levels, record sales and issue invoices.
 
@@ -63,7 +62,7 @@ The database (`stoktakipsistemi`) has tables for users, customers, categories, s
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/StockTrackingSystem.git
+git clone https://github.com/Zeyntrn/StockTrackingSystem.git
 ```
 
 ### 2. Create the database
@@ -87,15 +86,6 @@ Product photo paths are stored in the database (`FotoYolu` column) as full file 
 ### 5. Build and run
 
 Open the `.sln` file in Visual Studio and press **F5**.
-
-## Known Limitations and Future Improvements
-
-This is a course project, and I am aware of a few things I would improve in a production version:
-
-- Passwords are stored as plain text. They should be hashed (e.g. with BCrypt).
-- The password reset screen only asks for an e-mail address. It should verify the user with an e-mail link or code.
-- Product photo paths are absolute. Photos could be stored relative to the application folder.
-- A database schema script could be added to set up the tables automatically.
 
 ## What I Learned
 
